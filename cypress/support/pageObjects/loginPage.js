@@ -1,6 +1,7 @@
 class LoginPage {
   visit() {
     cy.visit('https://salma-qc.altersense.net/login');
+    // cy.visit('https://stagev15.inctl.net/login');
   }
 
   enterUsername(username) {

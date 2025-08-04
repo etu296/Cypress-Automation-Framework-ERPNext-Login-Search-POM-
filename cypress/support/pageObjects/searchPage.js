@@ -1,7 +1,7 @@
 class SearchBar {
     search(searchContent) {
     cy.get('#navbar-search')
-    .type(searchContent)
+    .type(searchContent).wait(1000)
     .type('{enter}');
 }
 
